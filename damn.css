@@ -1,0 +1,99 @@
+body
+{
+    background-size: 100%;
+    font-size: 100%;
+    background-repeat: no-repeat;
+    cursor:crosshair;
+    
+
+}
+
+
+
+.Tagline
+{
+    padding-left: 15px;
+    padding-top: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 150px;
+    color: white;
+    text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+}
+
+li{
+    float: left;
+
+}
+
+li a{
+    font-family:  'Arial Narrow Bold', sans-serif;
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    color:white;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: red;
+    color: white;
+
+}
+
+ul{
+    position:fixed;
+    top:0;
+    left: 0;
+    width:100%;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: black;
+    
+    
+}
+
+
+a1{
+    font-size: 25px;
+    color: white;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    display: inline-block;
+    padding: 14px  26px;
+    border: 2px;
+    border-radius: 25px;
+    
+}
+
+a1:hover{
+    color:red;
+    background-color: white;
+    
+    
+}
+
+.tour{
+    padding-left: 800px;
+    
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:red;
+    
+}
+
+ul.topnav li { float:left}
+
+ul.topnav li a{
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
